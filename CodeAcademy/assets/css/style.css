@@ -1,0 +1,442 @@
+#header{
+    max-height: 50px;
+}
+#header p{
+    margin-top: 20px;
+    color: #4a4a4a;
+}
+
+#header p a{
+    color: black;
+    text-decoration: none;
+}
+
+.social-hubs{
+    margin-top: 20px;
+}
+
+.social-hubs a{
+    margin-right: 30px;
+    color: black;
+}
+
+#header .appeal{
+    width: 100px;
+    background: yellow;
+    color: black;
+    border: none;
+    height: 50px;
+}
+#header .appeal:hover{
+    cursor: pointer;
+}
+
+#programs{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#programs h2{
+    font-weight: 200;
+    line-height: 20px;
+    text-align: start;
+}
+
+#programs h2 span{
+    font-weight: 700;
+    display: block;
+
+}
+
+#programs p{
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    max-width: 400px;
+}
+
+#programs a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#programs .item{
+    width: 350px;
+    height: 300px;
+    transition: .5s ease-in-out;
+    border: 1px solid grey;
+    margin-right: 0;
+    float: left;
+    text-align-last: left;
+    position: relative;
+    z-index: 1;
+}
+
+#programs .item:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+}
+
+#programs .item h3{
+    position: absolute;
+    bottom: 0;
+}
+
+.first:hover{
+    background-color: crimson;
+}
+
+.second:hover{
+    background-color: purple;
+}
+
+.third:hover{
+    background-color: orange;
+}
+
+.fourth:hover{
+    background-color: rgb(4, 99, 251);
+}
+
+.fifth:hover{
+    background-color: goldenrod;
+}
+
+.sixth:hover{
+    background-color: green;
+}
+
+.seventh:hover{
+    background-color: goldenrod;
+}
+
+#studentCount{
+    background-image: url("../images/background_team.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#studentCount h3{
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+    max-width: 1050px;
+    font-weight: 200;
+}
+
+#studentCount h3 span{
+    font-weight: bold;
+}
+
+#studentCount .students{
+    background-color: #fff;
+}
+
+#studentCount .exam-pass{
+    background-color: #fff;
+    border: 5px solid #000;
+    max-width: 800px;
+    margin-top: -5px;
+}
+
+#whyCode{
+    padding-top: 100px;
+}
+
+#whyCode .why-title{
+    max-width: 40%;
+}
+
+
+#whyCode .why-title h3{
+    font-weight: 100;
+    font-size: 40px;
+    position: relative;
+}
+
+#whyCode .why-title h3 span{
+    font-weight: 900;
+    display: block;
+}
+
+#whyCode .why-title h3::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: 110px;
+    background: linear-gradient(to right, blue, green, purple, red, orange, yellow );
+}
+
+#whyCode .why-title p{
+    display: block;
+    margin-top: 50px;
+}
+
+#whyCode .why-item .why-item_img{
+    display: inline;
+}
+
+#whyCode .why-item{
+    top: 50px;
+    position: relative;
+    transition: .2s linear;
+}
+
+#whyCode .why-item:nth-of-type(1){
+    margin-bottom: 30px;
+}
+
+#whyCode .why-item:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #4a4a4a;
+}
+
+
+#whyCode .why-item img{
+    width: 250px;
+    height: 200px;
+}
+
+#whyCode .why-info{
+    display: inline-block;
+    width: 400px;
+    margin-left: 100px;
+}
+
+#whyCode .why-info h3{
+    position: absolute;
+    top: 30px;
+}
+#whyCode .why-info p{
+    top: 50px;
+}
+
+#partners{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#partners h3{
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#partners h3 span{
+    font-weight: bold;
+    display: block;
+}
+
+#partners p{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    color: #323232;
+    position: relative;
+}
+
+#partners p::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background: linear-gradient(to right, green, blue, purple, red, yellow);
+    width: 100px;
+    height: 3px;
+    top: 100px;
+    left: 40%;
+}
+
+#partners .partners-container{
+    margin-top: 100px;
+    height: 300px;
+    position: relative;
+    margin-left: 180px;
+}
+
+#partners .partners{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: grayscale(1);
+    transition: .3s ease-in-out;
+}
+
+#partners .partners:hover{
+    filter: grayscale(0);
+}
+
+#future{
+    padding: 100px 0;
+    text-align: center;
+}
+
+#future h2{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+#future p{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#future a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 3px solid yellow;
+}
+
+#questions{
+    padding: 100px 0;
+    background-image: url("../images/background-reception.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#questions .questions-info{
+    margin-left: 200px;
+}
+
+#questions h3{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+#questions h3 span{
+    font-weight: 700;
+    display: block;
+    margin-left: 30px;
+}
+
+#questions p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#questions .name{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#questions .surname{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    float: right;
+    border: none;
+}
+
+#questions .prefix{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: none;
+}
+
+#questions .number{
+    width: calc(100% - 210px);
+    float: right;
+    height: 50px;
+    border: none;
+    text-align: center;
+}
+
+#questions .program{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+}
+
+#questions .submit{
+    width: 100%;
+    height: 50px;
+    background-color: #fbc85a;
+    border: none;
+    margin-top: 10px;
+}
+
+#questions .submit:hover{
+    cursor: pointer;
+}
+
+#academyInfo{
+    padding: 80px 0;
+    font-size: 12px;
+}
+
+#academyInfo h3{
+    margin-left: 220px;
+}
+
+#academyInfo ul{
+    list-style: none;
+    margin-left: 220px;
+}
+
+#academyInfo ul li{
+    margin-top: 20px;
+    color: #4a4a4a;
+}
+
+#address{
+    padding: 30px 0;
+    background-color: #f4f5f8;
+    text-align: center;
+}
+
+#address p{
+    color: #4a4a4a;
+}
+
+#address p a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    height: 120px;
+    position: relative;
+    text-align: center;
+}
+
+footer span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer .social-hubs{
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
